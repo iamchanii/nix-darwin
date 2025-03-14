@@ -50,6 +50,7 @@
   system.defaults.dock.appswitcher-all-displays = false;
   system.defaults.dock.autohide-delay = 0.24;
   system.defaults.dock.orientation = "left";
+  system.defaults.dock.workspaces-auto-swoosh = true;
   system.defaults.dock.persistent-apps = [
     "/Applications/MyApp.app"
     { app = "/Applications/Cool.app"; }

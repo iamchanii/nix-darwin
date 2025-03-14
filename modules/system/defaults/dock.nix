@@ -281,6 +281,14 @@ in {
       '';
     };
 
+    system.defaults.dock.workspaces-auto-swoosh = mkOption {
+      type = types.nullOr types.bool;
+      default = null;
+      description = ''
+        Whether to automatically switch between workspaces. The default is true.
+      '';
+    };
+
     system.defaults.dock.wvous-tl-corner = mkOption {
       type = types.nullOr types.ints.positive;
       default = null;
